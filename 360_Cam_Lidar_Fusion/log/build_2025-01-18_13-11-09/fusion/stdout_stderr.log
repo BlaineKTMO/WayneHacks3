@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/fusion/fusion.egg-info
+writing ../../build/fusion/fusion.egg-info/PKG-INFO
+writing dependency_links to ../../build/fusion/fusion.egg-info/dependency_links.txt
+writing entry points to ../../build/fusion/fusion.egg-info/entry_points.txt
+writing requirements to ../../build/fusion/fusion.egg-info/requires.txt
+writing top-level names to ../../build/fusion/fusion.egg-info/top_level.txt
+writing manifest file '../../build/fusion/fusion.egg-info/SOURCES.txt'
+reading manifest file '../../build/fusion/fusion.egg-info/SOURCES.txt'
+writing manifest file '../../build/fusion/fusion.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/fusion/build
+creating /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/fusion/build/lib
+creating /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/fusion/build/lib/fusion
+copying fusion/__init__.py -> /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/fusion/build/lib/fusion
+copying fusion/img_pub.py -> /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/fusion/build/lib/fusion
+running install
+running install_lib
+creating /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/lib/python3.10/site-packages/fusion
+copying /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/fusion/build/lib/fusion/__init__.py -> /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/lib/python3.10/site-packages/fusion
+copying /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/fusion/build/lib/fusion/img_pub.py -> /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/lib/python3.10/site-packages/fusion
+byte-compiling /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/lib/python3.10/site-packages/fusion/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/lib/python3.10/site-packages/fusion/img_pub.py to img_pub.cpython-310.pyc
+running install_data
+creating /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/share/ament_index
+creating /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/share/ament_index/resource_index
+creating /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/share/ament_index/resource_index/packages
+copying resource/fusion -> /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/share/ament_index/resource_index/packages
+copying package.xml -> /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/share/fusion
+running install_egg_info
+Copying ../../build/fusion/fusion.egg-info to /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/lib/python3.10/site-packages/fusion-0.0.0-py3.10.egg-info
+running install_scripts
+Installing img_pub script to /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/lib/fusion
+writing list of installed files to '/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/fusion/install.log'
