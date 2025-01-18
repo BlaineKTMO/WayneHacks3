@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'img_pub = fusion.img_pub:main'
+            'img_pub = fusion.img_pub:main',
+            'fuser = fusion.fuser:main'
         ],
     },
 )
