@@ -1,0 +1,27 @@
+[0.010s] Invoking command in '/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/velodyne': CMAKE_PREFIX_PATH=/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne_pointcloud:/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne_driver:/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne_msgs:/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne_laserscan:/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne:/opt/ros/humble /usr/bin/cmake --build /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/velodyne -- -j32 -l32
+[0.055s] Invoked command in '/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/velodyne' returned '0': CMAKE_PREFIX_PATH=/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne_pointcloud:/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne_driver:/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne_msgs:/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne_laserscan:/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne:/opt/ros/humble /usr/bin/cmake --build /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/velodyne -- -j32 -l32
+[0.057s] Invoking command in '/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/velodyne': CMAKE_PREFIX_PATH=/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne_pointcloud:/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne_driver:/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne_msgs:/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne_laserscan:/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne:/opt/ros/humble /usr/bin/cmake --install /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/velodyne
+[0.067s] -- Install configuration: ""
+[0.067s] -- Up-to-date: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne/share/velodyne/launch
+[0.067s] -- Up-to-date: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne/share/velodyne/launch/velodyne-all-nodes-VLP32C-launch.py
+[0.067s] -- Up-to-date: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne/share/velodyne/launch/velodyne-all-nodes-VLS128-composed-launch.py
+[0.067s] -- Up-to-date: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne/share/velodyne/launch/velodyne-all-nodes-VLP16-composed-launch.py
+[0.067s] -- Up-to-date: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne/share/velodyne/launch/velodyne-all-nodes-VLP16-launch.py
+[0.067s] -- Up-to-date: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne/share/velodyne/launch/velodyne-all-nodes-VLS128-launch.py
+[0.068s] -- Up-to-date: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne/share/velodyne/launch/velodyne-all-nodes-VLP32C-composed-launch.py
+[0.068s] -- Up-to-date: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne/share/ament_index/resource_index/package_run_dependencies/velodyne
+[0.068s] -- Up-to-date: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne/share/ament_index/resource_index/parent_prefix_path/velodyne
+[0.068s] -- Up-to-date: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne/share/velodyne/environment/ament_prefix_path.sh
+[0.068s] -- Up-to-date: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne/share/velodyne/environment/ament_prefix_path.dsv
+[0.068s] -- Up-to-date: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne/share/velodyne/environment/path.sh
+[0.068s] -- Up-to-date: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne/share/velodyne/environment/path.dsv
+[0.068s] -- Up-to-date: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne/share/velodyne/local_setup.bash
+[0.068s] -- Up-to-date: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne/share/velodyne/local_setup.sh
+[0.068s] -- Up-to-date: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne/share/velodyne/local_setup.zsh
+[0.068s] -- Up-to-date: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne/share/velodyne/local_setup.dsv
+[0.068s] -- Installing: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne/share/velodyne/package.dsv
+[0.068s] -- Up-to-date: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne/share/ament_index/resource_index/packages/velodyne
+[0.068s] -- Up-to-date: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne/share/velodyne/cmake/velodyneConfig.cmake
+[0.068s] -- Up-to-date: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne/share/velodyne/cmake/velodyneConfig-version.cmake
+[0.068s] -- Up-to-date: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne/share/velodyne/package.xml
+[0.069s] Invoked command in '/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/velodyne' returned '0': CMAKE_PREFIX_PATH=/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne_pointcloud:/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne_driver:/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne_msgs:/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne_laserscan:/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne:/opt/ros/humble /usr/bin/cmake --install /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/velodyne

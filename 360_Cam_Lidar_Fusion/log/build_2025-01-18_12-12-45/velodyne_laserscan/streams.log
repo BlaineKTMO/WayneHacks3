@@ -1,0 +1,45 @@
+[0.004s] Invoking command in '/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/src/velodyne/velodyne_laserscan -DCMAKE_INSTALL_PREFIX=/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne_laserscan
+[0.012s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.099s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.141s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.163s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.166s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.171s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.179s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.188s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.214s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.215s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.272s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.290s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.308s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.314s] -- Looking for pthread.h
+[0.367s] -- Looking for pthread.h - found
+[0.367s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.413s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.414s] -- Found Threads: TRUE  
+[0.442s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.458s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.478s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.516s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.517s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.517s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/src/velodyne/velodyne_laserscan/include>
+[0.517s] -- Configured cppcheck exclude dirs and/or files: 
+[0.517s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.517s] -- Configured cpplint exclude dirs and/or files: 
+[0.517s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.518s] -- Added test 'lint_cmake' to check CMake code style
+[0.518s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.519s] -- Added test 'uncrustify' to check C / C++ code style
+[0.519s] -- Configured uncrustify additional arguments: 
+[0.519s] -- Added test 'xmllint' to check XML markup files
+[0.521s] -- Configuring done
+[0.526s] -- Generating done
+[0.528s] -- Build files have been written to: /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/velodyne_laserscan
+[0.533s] Invoked command in '/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/velodyne_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/src/velodyne/velodyne_laserscan -DCMAKE_INSTALL_PREFIX=/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne_laserscan
+[0.534s] Invoking command in '/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/velodyne_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/velodyne_laserscan -- -j32 -l32
+[0.563s] [ 25%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan.dir/src/velodyne_laserscan.cpp.o[0m
+[4.696s] [ 50%] [32m[1mLinking CXX shared library libvelodyne_laserscan.so[0m
+[4.919s] [ 50%] Built target velodyne_laserscan
+[4.932s] [ 75%] [32mBuilding CXX object CMakeFiles/velodyne_laserscan_node.dir/src/node.cpp.o[0m
+[6.111s] [100%] [32m[1mLinking CXX executable velodyne_laserscan_node[0m
+[6.200s] [100%] Built target velodyne_laserscan_node

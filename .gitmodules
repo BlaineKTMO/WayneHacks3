@@ -1,0 +1,3 @@
+[submodule "360_Cam_Lidar_Fusion/src/velodyne"]
+	path = 360_Cam_Lidar_Fusion/src/velodyne
+	url = https://github.com/ros-drivers/velodyne

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5bc181b3fa0a12e04c5c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "velodyne_laserscan",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9ac3558d26f7cd01bf7b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "velodyne_laserscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-velodyne_laserscan-e9ed56d0cd52fff9bff9.json",
+					"name" : "velodyne_laserscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "velodyne_laserscan_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-velodyne_laserscan_node-412357dce2af0f3223eb.json",
+					"name" : "velodyne_laserscan_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "velodyne_laserscan_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-velodyne_laserscan_uninstall-4ef908726f2a8d05e789.json",
+					"name" : "velodyne_laserscan_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/velodyne_laserscan",
+		"source" : "/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/src/velodyne/velodyne_laserscan"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

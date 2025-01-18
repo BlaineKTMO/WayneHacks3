@@ -1,0 +1,33 @@
+[0.005s] Invoking command in '/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/velodyne_msgs': /usr/bin/cmake /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/src/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne_msgs
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.171s] -- The CXX compiler identification is GNU 11.4.0
+[0.177s] -- Detecting C compiler ABI info
+[0.255s] -- Detecting C compiler ABI info - done
+[0.261s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.261s] -- Detecting C compile features
+[0.262s] -- Detecting C compile features - done
+[0.263s] -- Detecting CXX compiler ABI info
+[0.316s] -- Detecting CXX compiler ABI info - done
+[0.320s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.320s] -- Detecting CXX compile features
+[0.320s] -- Detecting CXX compile features - done
+[0.324s] -- Configuring incomplete, errors occurred!
+[0.324s] See also "/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/velodyne_msgs/CMakeFiles/CMakeOutput.log".
+[0.325s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.325s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.325s]   has asked CMake to find a package configuration file provided by
+[0.325s]   "ament_cmake", but CMake did not find one.
+[0.325s] 
+[0.325s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.325s]   any of the following names:
+[0.325s] 
+[0.325s]     ament_cmakeConfig.cmake
+[0.325s]     ament_cmake-config.cmake
+[0.325s] 
+[0.325s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.325s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.325s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.325s]   has been installed.
+[0.325s] 
+[0.325s] [0m
+[0.326s] Invoked command in '/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/velodyne_msgs' returned '1': /usr/bin/cmake /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/src/velodyne/velodyne_msgs -DCMAKE_INSTALL_PREFIX=/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/velodyne_msgs

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "velodyne_msgs__py",
+		"source" : "/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/build/velodyne_msgs/velodyne_msgs__py"
+	}
+}
