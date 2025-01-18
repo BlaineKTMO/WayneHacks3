@@ -12,19 +12,19 @@ class ImagePublisher(Node):
 
         self.timer = self.create_timer(0.01, self.timer_callback)
 
-        self.cap = cv2.VideoCapture(3)
+        self.cap = cv2.VideoCapture(2)
         self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, 2880)
         self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 1440)
         self.cap.set(cv2.CAP_PROP_FPS, 30)
         self.bridge = CvBridge()
 
-        def timer_callback(self):
-            ret, frame = self.cap.read()
-            if ret:
-                msg = self.bridge.cv2_to_imgmsg(frame, encoding='bgr8')
-                self.publisher_.publish(msg)
-            else:
-                self.get_logger().error('Failed to capture image')
+    def timer_callback(self):
+        ret, frame = self.cap.read()
+        if ret:
+            msg = self.bridge.cv2_to_imgmsg(frame, encoding='bgr8')
+            self.publisher_.publish(msg)
+        else:
+            self.get_logger().error('Failed to capture image')
 
 
 
