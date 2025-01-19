@@ -20,10 +20,10 @@ class WhiteColorDetector(Node):
             
             hsv_image = cv2.cvtColor(cv_image, cv2.COLOR_BGR2HSV)
             
-            lower_white = np.array([35, 60, 70])
-            upper_white = np.array([85, 255, 255])
+            lower_green = np.array([20, 10, 30])
+            upper_green = np.array([85, 255, 255])
             
-            mask = cv2.inRange(hsv_image, lower_white, upper_white)
+            mask = cv2.inRange(hsv_image, lower_green, upper_green)
             
             white_detected = cv2.bitwise_and(cv_image, cv_image, mask=mask)
             
