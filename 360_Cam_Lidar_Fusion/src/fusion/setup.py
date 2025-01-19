@@ -21,7 +21,10 @@ setup(
     entry_points={
         'console_scripts': [
             'img_pub = fusion.img_pub:main',
-            'fuser = fusion.fuser:main'
+            'fuser = fusion.fuser:main',
+            'line_follow = fusion.line_follow:main',
+            'costmap = fusion.costmap:main',
+            'lane_costmap = fusion.lane_costmap:main',
         ],
     },
 )

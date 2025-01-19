@@ -1,7 +1,0 @@
-{
-  "package_name": "velodyne_msgs",
-  "non_idl_tuples": [
-    "/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/src/velodyne/velodyne_msgs:msg/VelodynePacket.msg",
-    "/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/src/velodyne/velodyne_msgs:msg/VelodyneScan.msg"
-  ]
-}

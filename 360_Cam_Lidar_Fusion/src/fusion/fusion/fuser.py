@@ -9,7 +9,7 @@ import numpy as np
 
 class SensorFusion(Node):
     def __init__(self):
-        super().__init__('image_pub')
+        super().__init__('fuser')
 
         self.subscriber_ = self.create_subscription(
             Image,
@@ -19,19 +19,30 @@ class SensorFusion(Node):
 
         self.lidar_sub_ = self.create_subscription(
             PointCloud2,
-            'velodyne_points',
+            'lidar_points',
             self.lidar_callback,
             1)
+        
+        self.publisher_ = self.create_publisher(Image, 'fused_image', 1)
 
         self.bridge=CvBridge()
         self.latest_image = None
         self.latest_pointcloud = None
 
-        # Define a transformation matrix for translating 8 inches (0.2032 meters) above
+        # # Define a transformation matrix for translating 8 inches (0.2032 meters) above
+        # cos_45 = np.sqrt(2) / 2
+        # sin_45 = np.sqrt(2) / 2
+        # self.transformation_matrix = np.array([
+        #     [cos_45, 0, sin_45, 0],
+        #     [0, 1, 0, 0],
+        #     [-sin_45, 0, cos_45, 0],
+        #     [0, 0, 0, 1]
+        # ])
+
         self.transformation_matrix = np.array([
             [1, 0, 0, 0],
-            [0, 1, 0, 0.2032],
-            [0, 0, 1, 0],
+            [0, 1, 0, 0],
+            [0, 0, 1, -0.203],
             [0, 0, 0, 1]
         ])
 
@@ -67,6 +78,9 @@ class SensorFusion(Node):
                     cv2.circle(numpy_image, (u, v), 1, color, -1)
             cv2.imshow("Fusion", numpy_image)
             cv2.waitKey(1)
+
+            image_msg = self.bridge.cv2_to_imgmsg(numpy_image, encoding='bgr8')
+            self.publisher_.publish(image_msg)
 
     def apply_transformation(self, x, y, z):
         # Apply transformation matrix to 3D point
