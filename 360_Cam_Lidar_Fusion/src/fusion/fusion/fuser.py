@@ -30,19 +30,19 @@ class SensorFusion(Node):
         # # Define a transformation matrix for translating 8 inches (0.2032 meters) above
         cos_45 = np.sqrt(2) / 2
         sin_45 = np.sqrt(2) / 2
-        self.transformation_matrix = np.array([
-            [1, 0, 0, 0],
-            [0, cos_45, -sin_45, 0.2032],
-            [0, sin_45, cos_45, 0],
-            [0, 0, 0, 1]
-        ])
-
         # self.transformation_matrix = np.array([
         #     [1, 0, 0, 0],
-        #     [0, 1, 0, 0.2032],
-        #     [0, 0, 1, 0],
+        #     [0, cos_45, -sin_45, 0.2032],
+        #     [0, sin_45, cos_45, 0],
         #     [0, 0, 0, 1]
         # ])
+
+        self.transformation_matrix = np.array([
+            [1, 0, 0, 0],
+            [0, 1, 0, 0.2032],
+            [0, 0, 1, 0],
+            [0, 0, 0, 1]
+        ])
 
     def listener_callback(self, msg):
         self.get_logger().info('Received image')
