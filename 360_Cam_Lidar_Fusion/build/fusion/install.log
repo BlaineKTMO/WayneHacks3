@@ -1,5 +1,7 @@
+/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/lib/python3.10/site-packages/fusion/fuser.py
 /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/lib/python3.10/site-packages/fusion/__init__.py
 /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/lib/python3.10/site-packages/fusion/img_pub.py
+/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/lib/python3.10/site-packages/fusion/__pycache__/fuser.cpython-310.pyc
 /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/lib/python3.10/site-packages/fusion/__pycache__/__init__.cpython-310.pyc
 /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/lib/python3.10/site-packages/fusion/__pycache__/img_pub.cpython-310.pyc
 /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/share/ament_index/resource_index/packages/fusion
@@ -11,4 +13,5 @@
 /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/lib/python3.10/site-packages/fusion-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/lib/python3.10/site-packages/fusion-0.0.0-py3.10.egg-info/top_level.txt
 /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/lib/python3.10/site-packages/fusion-0.0.0-py3.10.egg-info/SOURCES.txt
+/home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/lib/fusion/fuser
 /home/blaine/WayneHacks3/360_Cam_Lidar_Fusion/install/fusion/lib/fusion/img_pub

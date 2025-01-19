@@ -1,3 +1,4 @@
 [console_scripts]
+fuser = fusion.fuser:main
 img_pub = fusion.img_pub:main
 
