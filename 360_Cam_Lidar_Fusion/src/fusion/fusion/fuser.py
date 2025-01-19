@@ -22,6 +22,8 @@ class SensorFusion(Node):
             'lidar_points',
             self.lidar_callback,
             1)
+        
+        self.publisher_ = self.create_publisher(Image, 'camera/image', 1)
 
         self.bridge=CvBridge()
         self.latest_image = None
@@ -76,6 +78,9 @@ class SensorFusion(Node):
                     cv2.circle(numpy_image, (u, v), 1, color, -1)
             cv2.imshow("Fusion", numpy_image)
             cv2.waitKey(1)
+
+            image_msg = self.bridge.cv2_to_imgmsg(numpy_image, encoding='bgr8')
+            self.publisher_.publish(image_msg)
 
     def apply_transformation(self, x, y, z):
         # Apply transformation matrix to 3D point
