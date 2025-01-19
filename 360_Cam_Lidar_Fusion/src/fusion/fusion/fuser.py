@@ -19,7 +19,7 @@ class SensorFusion(Node):
 
         self.lidar_sub_ = self.create_subscription(
             PointCloud2,
-            'velodyne_points',
+            'lidar_points',
             self.lidar_callback,
             1)
 
@@ -27,13 +27,22 @@ class SensorFusion(Node):
         self.latest_image = None
         self.latest_pointcloud = None
 
-        # Define a transformation matrix for translating 8 inches (0.2032 meters) above
+        # # Define a transformation matrix for translating 8 inches (0.2032 meters) above
+        cos_45 = np.sqrt(2) / 2
+        sin_45 = np.sqrt(2) / 2
         self.transformation_matrix = np.array([
             [1, 0, 0, 0],
-            [0, 1, 0, 0.2032],
-            [0, 0, 1, 0],
+            [0, cos_45, -sin_45, 0.2032],
+            [0, sin_45, cos_45, 0],
             [0, 0, 0, 1]
         ])
+
+        # self.transformation_matrix = np.array([
+        #     [1, 0, 0, 0],
+        #     [0, 1, 0, 0.2032],
+        #     [0, 0, 1, 0],
+        #     [0, 0, 0, 1]
+        # ])
 
     def listener_callback(self, msg):
         self.get_logger().info('Received image')
@@ -98,7 +107,7 @@ class SensorFusion(Node):
 
     def get_color_for_distance(self, distance, ring):
         # Map distance to a color gradient (e.g., from blue to red)
-        max_distance = 5.0  # Maximum distance for normalization
+        max_distance = 2.0  # Maximum distance for normalization
         normalized_distance = min(distance / max_distance, 1.0)
         blue = int((1 - normalized_distance) * 255)
         red = int(normalized_distance * 255)

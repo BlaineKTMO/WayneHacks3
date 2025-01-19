@@ -10,7 +10,7 @@ class ImagePublisher(Node):
 
         self.publisher_ = self.create_publisher(Image, 'camera/image', 1)
 
-        self.timer = self.create_timer(0.01, self.timer_callback)
+        self.timer = self.create_timer(0.05, self.timer_callback)
 
         self.cap = cv2.VideoCapture(2)
         self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, 2880)
