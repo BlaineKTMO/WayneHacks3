@@ -1,0 +1,24 @@
+[0.350s] Invoking command in '/home/shanti/WayneHacks3/Lidar_Interpolation/src/lidar_interpolation_node': PYTHONPATH=/home/shanti/WayneHacks3/Lidar_Interpolation/build/lidar_interpolation_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shanti/WayneHacks3/Lidar_Interpolation/install/lidar_interpolation_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lidar_interpolation_node build --build-base /home/shanti/WayneHacks3/Lidar_Interpolation/build/lidar_interpolation_node/build install --record /home/shanti/WayneHacks3/Lidar_Interpolation/build/lidar_interpolation_node/install.log --single-version-externally-managed install_data
+[0.482s] running egg_info
+[0.483s] writing ../../build/lidar_interpolation_node/lidar_interpolation_node.egg-info/PKG-INFO
+[0.483s] writing dependency_links to ../../build/lidar_interpolation_node/lidar_interpolation_node.egg-info/dependency_links.txt
+[0.483s] writing entry points to ../../build/lidar_interpolation_node/lidar_interpolation_node.egg-info/entry_points.txt
+[0.483s] writing requirements to ../../build/lidar_interpolation_node/lidar_interpolation_node.egg-info/requires.txt
+[0.483s] writing top-level names to ../../build/lidar_interpolation_node/lidar_interpolation_node.egg-info/top_level.txt
+[0.484s] reading manifest file '../../build/lidar_interpolation_node/lidar_interpolation_node.egg-info/SOURCES.txt'
+[0.485s] writing manifest file '../../build/lidar_interpolation_node/lidar_interpolation_node.egg-info/SOURCES.txt'
+[0.485s] running build
+[0.485s] running build_py
+[0.485s] copying lidar_interpolation_node/simple_node.py -> /home/shanti/WayneHacks3/Lidar_Interpolation/build/lidar_interpolation_node/build/lib/lidar_interpolation_node
+[0.485s] running install
+[0.485s] running install_lib
+[0.485s] copying /home/shanti/WayneHacks3/Lidar_Interpolation/build/lidar_interpolation_node/build/lib/lidar_interpolation_node/simple_node.py -> /home/shanti/WayneHacks3/Lidar_Interpolation/install/lidar_interpolation_node/lib/python3.10/site-packages/lidar_interpolation_node
+[0.486s] byte-compiling /home/shanti/WayneHacks3/Lidar_Interpolation/install/lidar_interpolation_node/lib/python3.10/site-packages/lidar_interpolation_node/simple_node.py to simple_node.cpython-310.pyc
+[0.486s] running install_data
+[0.486s] running install_egg_info
+[0.487s] removing '/home/shanti/WayneHacks3/Lidar_Interpolation/install/lidar_interpolation_node/lib/python3.10/site-packages/lidar_interpolation_node-0.0.0-py3.10.egg-info' (and everything under it)
+[0.487s] Copying ../../build/lidar_interpolation_node/lidar_interpolation_node.egg-info to /home/shanti/WayneHacks3/Lidar_Interpolation/install/lidar_interpolation_node/lib/python3.10/site-packages/lidar_interpolation_node-0.0.0-py3.10.egg-info
+[0.488s] running install_scripts
+[0.499s] Installing simple_node script to /home/shanti/WayneHacks3/Lidar_Interpolation/install/lidar_interpolation_node/lib/lidar_interpolation_node
+[0.499s] writing list of installed files to '/home/shanti/WayneHacks3/Lidar_Interpolation/build/lidar_interpolation_node/install.log'
+[0.513s] Invoked command in '/home/shanti/WayneHacks3/Lidar_Interpolation/src/lidar_interpolation_node' returned '0': PYTHONPATH=/home/shanti/WayneHacks3/Lidar_Interpolation/build/lidar_interpolation_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shanti/WayneHacks3/Lidar_Interpolation/install/lidar_interpolation_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lidar_interpolation_node build --build-base /home/shanti/WayneHacks3/Lidar_Interpolation/build/lidar_interpolation_node/build install --record /home/shanti/WayneHacks3/Lidar_Interpolation/build/lidar_interpolation_node/install.log --single-version-externally-managed install_data
